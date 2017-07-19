@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+.wprequal{
+	color:#000;
+	background-color:#e6e6e6;
+	border:#CCCCCC thin solid;
+	padding:15px 5px;
+	max-width:600px;
+	border-radius: 4px;
+	margin:0 auto;
+}
+
+.wprequal_content_wrap{
+	background-color:#fff;
+	padding:7px 2px;
+	border-radius: 4px;
+	min-height:100px;
+}
+
+.wprequal_header{
+	font-size: 28px;
+	text-align: center;
+}
+
+.wprequal_note{
+	font-size:12px;
+}
+
+.wprequal_content{
+	font-size: 24px;
+	text-align: center;
+	margin-bottom:30px;
+}
+
+.wprequal_form_wrap{
+	padding: 1px 2px 7px;
+	text-align:center;
+}
+
+.wprequal_button{
+	width:100%;
+	margin:5px 0;
+	font-size: 20px;
+}
+
+.wprequal_error{
+	border-color:red !important;
+	background-color:#FAEAEB !important;
+}
+
+.wprequal_red{
+	color:red;
+}
+
+.wprequal_hide{
+	display:none;
+}
+
+.wprequal_back{
+	text-align:center;
+	font-size:10px;
+	color:#4CA1F6;
+	padding:2px;
+	border-radius:3px;
+	border:#999 thin solid;
+	margin-top:2px;
+}
+
+.wprequal_back:hover{
+	border:#333 thin solid;
+	color:#046EDB;
+}
+
+.animated{
+	-webkit-animation-duration:1s;
+	animation-duration:1s;
+	-webkit-animation-fill-mode:both;
+	animation-fill-mode:both;
+}
+
+.slow{
+	-webkit-animation-duration:1.5s;
+	animation-duration:1.5s;
+}
+
+@-webkit-keyframes fadeIn{
+	from{
+		opacity:0;
+	}
+	
+	to{
+		opacity:1;
+	}
+}
+
+@keyframes fadeIn{
+	from{
+		opacity:0;
+	}
+	
+	to{
+		opacity:1;
+	}
+}
+
+.fadeIn{
+	-webkit-animation-name:fadeIn;
+	animation-name:fadeIn;
+}
+
+@-webkit-keyframes fadeOut{
+	from{
+		opacity:1;
+	}
+	
+	to{
+		opacity:0;
+	}
+}
+
+@keyframes fadeOut{
+	from{
+		opacity:1;
+	}
+	
+	to{
+		opacity:0;
+	}
+}
+.fadeOut{
+	-webkit-animation-name:fadeOut;
+	animation-name:fadeOut;
+}
